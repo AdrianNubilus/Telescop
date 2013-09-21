@@ -73,7 +73,7 @@
 
 
 <!-- prod list -->
-  <div class="product-list">
+  <div class="product-list container-products">
     <?php foreach ($products as $product) { ?>
     <div>
       <?php if ($product['thumb']) { ?>
