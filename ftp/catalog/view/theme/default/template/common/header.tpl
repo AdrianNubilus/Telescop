@@ -68,6 +68,10 @@ DD_belatedPNG.fix('#logo img');
 </script>
 <![endif]-->
 <?php echo $google_analytics; ?>
+
+<script type="text/javascript" src="catalog/view/javascript/ajax_product_loader.js"></script>
+<link rel="stylesheet" type="text/css" href="catalog/view/theme/default/stylesheet/ajax_product_loader.css" />
+
 </head>
 <body>
 <div id="container">
