@@ -1861,7 +1861,7 @@ float:right;
 
 .fsocial  {
  	float:right;
-	margin-right:-40px;
+	margin-right:-45px;
 }
 
 .fsocial a{
@@ -1902,4 +1902,16 @@ behavior: url(ie-css3.htc); /* Это пилюля для IE */
 }
 .video iframe {
 	padding-top:10px;
+}
+.home-advantage {
+float:left;
+width:290px;
+margin-top:20px;
+}
+.img-advantage {
+width:32px;
+height:32px;
+margin-right:10px;
+float:left;
+margin-top:-9px;
 }

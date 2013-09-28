@@ -2,7 +2,8 @@
 <noindex>
 <div class="f-menu">
 	<ul class="foot-menu">
-		<li><a href="/telescope">Каталог продукции</li>
+		<li><a href="/telescope">Телескопы</li>
+		<li><a href="/microscope">Микроскопы</li>
 		<li><a href="/about_us">О магазине</li>		
 		<li><a href="/oplata-dostavka">Доставка и оплата</li>		
 		<li><a href="/warranty">Гарантия, возвраты</li>		

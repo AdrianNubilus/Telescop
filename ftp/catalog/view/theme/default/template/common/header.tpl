@@ -113,7 +113,8 @@ DD_belatedPNG.fix('#logo img');
 <div class="main_menu">
 	<div class="menu-wrapper">
 		<ul>
-			<li><a href="/telescope">Каталог продукции</a></li>
+			<li><a href="/telescope">Телескопы</a></li>
+			<li><a href="/microscope">Микроскопы</li>
 			<li><a href="/about_us">О магазине</a></li>
 			<li><a href="/oplata-dostavka">Доставка и оплата</a></li>
 			<li><a href="/warranty">Гарантия, возвраты</a></li>
