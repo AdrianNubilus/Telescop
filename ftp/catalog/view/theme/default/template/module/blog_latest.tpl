@@ -1,11 +1,12 @@
- <?php if ($records) { ?>
+﻿<div style="width:300px; float:right;"> 
+<?php if ($records) { ?>
 <div class="box">
-  <div class="box-heading"><?php echo $heading_title; ?></div>
+  <h2>Свежие новости и обзоры</h2>
 	<div class="box-content">
 
   <div class="blog-record-list-small">
     <?php foreach ($records as $record) { ?>
-    <div>
+    <div style="margin-bottom:10px;">
 
 				    <?php if (isset ($record['settings_blog']['view_date']) && $record['settings_blog']['view_date'] ) { ?>
 				    <?php if (isset ($record['settings']['view_date']) && $record['settings']['view_date'] ) { ?>
@@ -14,9 +15,9 @@
 				      <?php } ?>
 				    <?php } ?>
 				    <?php } ?>
+				        <div class="blog-date_not_img"><?php echo $record['date_available']; ?></div>
 
-
-     <div class="name marginbottom5">
+     <div class="name marginbottom5" style="font-size:16px;">
 
 					    <?php if (isset ($record['settings_blog']['category_status']) && $record['settings_blog']['category_status'] ) { ?>
 					    <?php if (isset ($record['settings']['category_status']) && $record['settings']['category_status'] ) { ?>
@@ -27,14 +28,7 @@
 
      </div>
 
-      <?php if ($record['thumb']) { ?>
-      <div class="image blog-image"><a href="<?php echo $record['href']; ?>"><img src="<?php echo $record['thumb']; ?>" title="<?php echo $record['name']; ?>" alt="<?php echo $record['name']; ?>" /></a></div>
-      <?php } ?>
-fsdsffsdfsdfsdfsd
-          	<div class="description"><?php echo $record['description']; ?>&nbsp;
-          	<a href="<?php echo $record['href']; ?>" class="description blog-further"><?php echo $this->language->get('text_further'); ?></a></div>
-
-
+  
       <div>
 
 
@@ -88,11 +82,12 @@ fsdsffsdfsdfsdfsd
 	 }
 	?>
 
-  <div class="blog-child_divider">&nbsp;</div>
  <div class="overflowhidden lineheight1 width100">&nbsp;</div>
     </div>
     <?php } ?>
   </div>
+<a href="/news" style="float:right;">смотреть все новости и обзоры</a>
  </div>
+
 </div>
   <?php } ?>

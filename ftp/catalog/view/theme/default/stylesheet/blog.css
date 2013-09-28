@@ -117,6 +117,7 @@ line-height: 26px;
 .blog-record-list-small a {
 font-size: 14px;
 line-height: 18px;
+margin-left:-10px;
 }
 
 .blog-record-list-small {
@@ -224,6 +225,10 @@ position: relative;  width: 100%; border: 0px solid #F0F0F0; padding-left: 0px; 
 }
 
 .blog-date {	font-size: 13px; color: #aaa; margin-bottom: 0px; margin-left: 5px; float: left;
+}
+
+.blog-date_not_img {
+	font-size: 12px; color: #aaa; margin-bottom:2px; margin-left:-10px;
 }
 
 .blog-record-list-small  .blog-date {
