@@ -1907,6 +1907,7 @@ behavior: url(ie-css3.htc); /* Это пилюля для IE */
 float:left;
 width:290px;
 margin-top:20px;
+margin-bottom:5px;
 }
 .img-advantage {
 width:32px;
