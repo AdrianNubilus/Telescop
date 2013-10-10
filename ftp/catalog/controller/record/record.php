@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 class ControllerRecordRecord extends Controller
 {
 	private $error = array();
@@ -246,7 +246,7 @@ class ControllerRecordRecord extends Controller
 				'href' => $this->url->link('record/record', '&record_id=' . $this->request->get['record_id']),
 				'separator' => $this->language->get('text_separator')
 			);
-			$this->document->setTitle($record_info['name']);
+			$this->document->setTitle($record_info['name'] . " \ Купить телескоп в Минске \ Telescop.by");
 			$this->document->setDescription($record_info['meta_description']);
 			$this->document->setKeywords($record_info['meta_keyword']);
 			$this->document->addLink($this->url->link('record/record', 'record_id=' . $this->request->get['record_id']), 'canonical');

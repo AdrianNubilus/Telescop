@@ -168,7 +168,7 @@ class ControllerRecordBlog extends Controller
 		}
 		$blog_info = $this->model_catalog_blog->getBlog($blog_id);
 		if ($blog_info) {
-			$this->document->setTitle($blog_info['name']);
+			$this->document->setTitle($blog_info['name']. " \ Интернет-магазин телескопов \ Telescop.by");
 			$this->document->setDescription($blog_info['meta_description']);
 			$this->document->setKeywords($blog_info['meta_keyword']);
 			$this->data['heading_title']   = $blog_info['name'];

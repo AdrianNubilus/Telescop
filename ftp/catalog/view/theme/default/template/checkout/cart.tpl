@@ -9,6 +9,29 @@
 <div class="warning"><?php echo $error_warning; ?><img src="catalog/view/theme/default/image/close.png" alt="" class="close" /></div>
 <?php } ?>
 <?php echo $column_left; ?><?php echo $column_right; ?>
+
+<!-- google adwods конверсия -->
+<!-- Google Code for &#1055;&#1077;&#1088;&#1077;&#1093;&#1086;&#1076; &#1074; &#1082;&#1086;&#1088;&#1079;&#1080;&#1085;&#1091; Conversion Page -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 986432549;
+var google_conversion_language = "en";
+var google_conversion_format = "3";
+var google_conversion_color = "ffffff";
+var google_conversion_label = "85OmCLvi9wYQpYiv1gM";
+var google_conversion_value = 0;
+var google_remarketing_only = false;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/986432549/?value=0&amp;label=85OmCLvi9wYQpYiv1gM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+<!-- /google adwods конверсия -->
+
 <div id="content"><?php echo $content_top; ?>
   <div class="breadcrumb">
     <?php foreach ($breadcrumbs as $breadcrumb) { ?>

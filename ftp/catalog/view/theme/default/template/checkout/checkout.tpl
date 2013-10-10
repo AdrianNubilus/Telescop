@@ -1,4 +1,27 @@
 <?php echo $header; ?><?php echo $column_left; ?><?php echo $column_right; ?>
+
+<!-- Google AdWords конверсия -->
+<!-- Google Code for &#1054;&#1092;&#1086;&#1088;&#1084;&#1083;&#1077;&#1085;&#1080;&#1077; Conversion Page -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 986432549;
+var google_conversion_language = "en";
+var google_conversion_format = "3";
+var google_conversion_color = "ffffff";
+var google_conversion_label = "G-NaCKPl9wYQpYiv1gM";
+var google_conversion_value = 0;
+var google_remarketing_only = false;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/986432549/?value=0&amp;label=G-NaCKPl9wYQpYiv1gM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+<!-- /Google AdWords конверсия -->
+
 <div id="content"><?php echo $content_top; ?>
 	<div class="breadcrumb">
 		<?php foreach($breadcrumbs as $breadcrumb) { ?>
