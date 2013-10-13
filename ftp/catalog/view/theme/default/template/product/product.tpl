@@ -20,7 +20,7 @@
       </div>
       <?php } ?>
 	
-	<?php if ($jan) { ?>
+	<?php if ($jan) { ?>	
 		<br/>
 		<h3>Видео:</h3>
 		<div class="video">
@@ -41,8 +41,10 @@
         <?php } ?>
         <span><?php echo $text_stock; ?></span> <?php echo $stock; ?> <strong><?php echo $ean; ?></strong>
 	</div>
+	
+
       <?php if ($price) { ?>
-      <div class="price"><?php echo $text_price; ?>
+      <div class="price" style="width:310px; float:left;"><?php echo $text_price; ?>
         <?php if (!$special) { ?>
         <?php echo $price; ?>
         <?php } else { ?>
@@ -63,7 +65,8 @@
         </div>
         <?php } ?>
       </div>
-	<span class="free-deliv">Бесплатная доставка по Минску</span>
+	<div class="free-deliv">Бесплатная доставка по Минску</div>
+	<div class="region-deliv"><a href="http://telescop.by/oplata-dostavka" style="font-size:14px;" target="_blank">Курьером во все регионы Беларуси</a></div>
       <?php } ?>
       <?php if ($options) { ?>
       <div class="options">
@@ -211,8 +214,10 @@
         <?php } ?>
       </div>
       <?php } ?>
+	  
+	  
       <div class="cart">
-        <div><?php echo $text_qty; ?>
+        <div ><?php echo $text_qty; ?>
           <input type="text" name="quantity" size="2" value="<?php echo $minimum; ?>" />
           <input type="hidden" name="product_id" size="2" value="<?php echo $product_id; ?>" />
           &nbsp;
@@ -241,6 +246,8 @@
         <div class="minimum"><?php echo $text_minimum; ?></div>
         <?php } ?>
       </div>
+<br/>
+
       <?php if ($review_status) { ?>
       <div class="review">
         <div><img src="catalog/view/theme/default/image/stars-<?php echo $rating; ?>.png" alt="<?php echo $reviews; ?>" />&nbsp;&nbsp;<a onclick="$('a[href=\'#tab-review\']').trigger('click');"><?php echo $reviews; ?></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a onclick="$('a[href=\'#tab-review\']').trigger('click');"><?php echo $text_write; ?></a></div>

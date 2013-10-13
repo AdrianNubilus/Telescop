@@ -1254,9 +1254,17 @@ a.not_stock{
 	font-size:14px; 
 	float:right; 
 	width:150px;
-	margin-top:-5px; 
+	margin-top:10px; 
 	padding-left:40px; 
 	background: #FFFFFF url('../image/delivery.png') left top no-repeat;
+}
+.product-info .region-deliv {
+	font-size:14px; 
+	float:right; 
+	width:150px;
+	margin-top:10px; 
+	padding-left:40px; 
+	background: #FFFFFF url('../image/vozim-logo-mini.png') left top no-repeat;
 }
 
 .product-info .options {
